@@ -100,6 +100,9 @@ class GenDpPath:
                 if (abs(link1_index-peekindex[i]) == 1 or (flag == 1 and peekindex[i] == polys.count() - 2)):
                      link1_index = peekindex[i]
                      xs1min = min(peeklist[i].x,xs1min)
+                     if (flag == 1 and peekindex[i] == polys.count() - 2):
+                         linklist1.insert(0, peeklist[i])
+                         continue
                      linklist1.append(peeklist[i])
                      continue
                 if(len(linklist2) == 0):
@@ -165,6 +168,9 @@ class GenDpPath:
                 if (abs(link1_index - peekindex[i]) == 1 or (flag == 1 and peekindex[i] == polys.count() - 2)):
                     link1_index = peekindex[i]
                     xs1max = max(peeklist[i].x, xs1max)
+                    if(flag == 1 and peekindex[i] == polys.count() - 2):
+                        linklist1.insert(0,peeklist[i])
+                        continue
                     linklist1.append(peeklist[i])
                     continue
                 if (len(linklist2) == 0):
