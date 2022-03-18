@@ -96,21 +96,26 @@ class GenDpPath:
             linklist1.append(peeklist[0])
             link1_index = peekindex[0]
             xs1min = min(peeklist[0].x, xs1min)
+            insert_index = 0
             for i in range(1,len(peekindex)):
-                if (abs(link1_index-peekindex[i]) == 1 or (flag == 1 and peekindex[i] == polys.count() - 2)):
-                     link1_index = peekindex[i]
-                     xs1min = min(peeklist[i].x,xs1min)
-                     if (flag == 1 and peekindex[i] == polys.count() - 2):
-                         linklist1.insert(0, peeklist[i])
-                         continue
-                     linklist1.append(peeklist[i])
-                     continue
+                if (abs(link1_index-peekindex[i]) == 1):
+                    link1_index = peekindex[i]
+                    xs1min = min(peeklist[i].x,xs1min)
+                    linklist1.append(peeklist[i])
+                    continue
                 if(len(linklist2) == 0):
                     linklist2.append(peeklist[i])
+                    xs2min = min(peeklist[i].x, xs2min)
+                    link2_index = peekindex[i]
+                    continue
                 elif(len(linklist2) != 0 and abs(link2_index - peekindex[i]) == 1):
                     linklist2.append(peeklist[i])
-                xs2min = min(peeklist[i].x, xs2min)
-                link2_index = peekindex[i]
+                    xs2min = min(peeklist[i].x, xs2min)
+                    link2_index = peekindex[i]
+                    continue
+                xs1min = min(peeklist[i].x, xs1min)
+                linklist1.insert(insert_index, peeklist[i])
+                insert_index = insert_index + 1
             if(len(linklist2) == 0):
                 havelinkpoint = False
                 for index in peekindex:
@@ -164,21 +169,26 @@ class GenDpPath:
             linklist1.append(peeklist[0])
             link1_index = peekindex[0]
             xs1max = max(peeklist[0].x, xs1max)
+            insert_index = 0
             for i in range(1, len(peekindex)):
-                if (abs(link1_index - peekindex[i]) == 1 or (flag == 1 and peekindex[i] == polys.count() - 2)):
+                if (abs(link1_index - peekindex[i]) == 1 ):
                     link1_index = peekindex[i]
                     xs1max = max(peeklist[i].x, xs1max)
-                    if(flag == 1 and peekindex[i] == polys.count() - 2):
-                        linklist1.insert(0,peeklist[i])
-                        continue
                     linklist1.append(peeklist[i])
                     continue
                 if (len(linklist2) == 0):
                     linklist2.append(peeklist[i])
+                    xs2max = max(peeklist[i].x, xs2max)
+                    link2_index = peekindex[i]
+                    continue
                 elif (len(linklist2) != 0 and abs(link2_index - peekindex[i]) == 1):
                     linklist2.append(peeklist[i])
-                xs2max = max(peeklist[i].x, xs2max)
-                link2_index = peekindex[i]
+                    xs2max = max(peeklist[i].x, xs2max)
+                    link2_index = peekindex[i]
+                    continue
+                xs1max = max(peeklist[i].x, xs1max)
+                linklist1.insert(insert_index, peeklist[i])
+                insert_index = insert_index + 1
             if (len(linklist2) == 0):
                 havelinkpoint = False
                 for index in peekindex:
