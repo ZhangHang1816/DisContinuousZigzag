@@ -9,8 +9,13 @@ import copy
 from PathOp import *
 
 # this inputed contours must be closed and this contour must be anticlockwise
+<<<<<<< HEAD
 path = "\Data\SampleOne\cluster_contour_first.txt"
 out_offset_path = "\Data\SampleOne\out_contour_path.txt"
+=======
+path = "\Data\cluster_contour_first.txt"
+out_offset_path = "\Data\out_contour_path.txt"
+>>>>>>> 67ebfee89b9735968f54a49956b070ef8d098a12
 
 #path = "C:/Users/Hang/Desktop/ANN/Zigzag/Path/cluster_contour.txt"
 save_path = "C:/Users/Hang/Desktop/ANN/Zigzag/NoContinuiousZigzag/Data/zigzag.txt"
@@ -104,7 +109,11 @@ for i in range(len(layer_contours)):
 
 for paths in  optimal_pathes:
     for path in paths:
+<<<<<<< HEAD
         va.drawPolyline(path).GetProperty().SetColor(1,0,1)
+=======
+        va.drawPolyline(path).GetProperty().SetColor(0,0,1)
+>>>>>>> 67ebfee89b9735968f54a49956b070ef8d098a12
 
 
 va.display()
