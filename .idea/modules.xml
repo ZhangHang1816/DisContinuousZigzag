@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/NoContinuiousZigzag.iml" filepath="$PROJECT_DIR$/.idea/NoContinuiousZigzag.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/DisContinuousZigzag.iml" filepath="$PROJECT_DIR$/.idea/DisContinuousZigzag.iml" />
     </modules>
   </component>
 </project>
