@@ -6,6 +6,7 @@ This project is to generate the printing paths on the planar reinforced layer an
 #### Installation guide
 
 1.  pip install vtk
+2.  pip install pyclipper
 
 #### Using instructions
 
