@@ -1,7 +1,7 @@
 # DisContinuousZigzag
 
 #### Introduction
-{This project is to generate the printing paths on the planar reinforced layer and processing transitional layer. The processing transitional layer performs the filling strategy staggered with the planar reinforced layer. But the current code shows only the filling path of a single layer.}
+This project is to generate the printing paths on the planar reinforced layer and processing transitional layer. The processing transitional layer performs the filling strategy staggered with the planar reinforced layer. But the current code shows only the filling path of a single layer.
 
 #### Installation guide
 
