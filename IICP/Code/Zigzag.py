@@ -9,14 +9,11 @@ import copy
 from PathOp import *
 
 # this inputed contours must be closed and this contour must be anticlockwise
-path = "\Data\SampleOne\cluster_contour_first.txt"
-out_offset_path = "\Data\SampleOne\out_contour_path.txt"
-
-path = "\Data\cluster_contour_first.txt"
+path = "\Data\cluster_contour.txt"
 out_offset_path = "\Data\out_contour_path.txt"
 
 #path = "C:/Users/Hang/Desktop/ANN/Zigzag/Path/cluster_contour.txt"
-save_path = "C:/Users/Hang/Desktop/ANN/Zigzag/NoContinuiousZigzag/Data/zigzag.txt"
+save_path = "C:/Users/Hang/Desktop/ANN/Zigzag/DisContinuousZigzag/IICP/Data/zigzag.txt"
 cofficient = 10000
 interval = 0.4
 pathes = []
@@ -74,16 +71,16 @@ for i in range (len(contours_offset)):
 optimal_pathes = sample_printing_time(pathes)
 
 layer = [0.2,0.4]
-#with open(save_path, 'w') as f:
-    #for z in range(len(layer)):
-        #for i in range(len(pathes)):
-            #for fill in pathes[i]:
-                #for j in fill.points:
-                    #f.write(str(j.x) + "    " + str(j.y) + "    " + str(layer[z]) + '\n')
-                #f.write("1111" + "    " + "1111" + "    " + "1111" + '\n')
-                #print("this is split contours")
-    #f.write("11" + "    " + "1111" + "    " + "0.6")
-#f.close()
+with open(save_path, 'w') as f:
+    for z in range(len(layer)):
+        for i in range(len(pathes)):
+            for fill in pathes[i]:
+                for j in fill.points:
+                    f.write(str(j.x) + "    " + str(j.y) + "    " + str(layer[z]) + '\n')
+                f.write("1111" + "    " + "1111" + "    " + "1111" + '\n')
+                print("this is split contours")
+    f.write("11" + "    " + "1111" + "    " + "0.6")
+f.close()
 
 out_contour_path = np.loadtxt(out_offset_path)
 layer_out = Layer(0)
@@ -103,7 +100,7 @@ for contour in layer_out.contours:
 
 for i in range(len(layer_contours)):
     for countour in  layer_contours[i].contours:
-        va.drawPolyline(countour).GetProperty().SetColor(0,0,1)
+        va.drawPolyline(countour).GetProperty().SetColor(1,0,1)
 
 for paths in  optimal_pathes:
     for path in paths:

@@ -1,12 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f31998eb-5b88-4fd6-94b2-a272d35e4d6c" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/Picture/SampleOne.png" afterDir="false" />
+    <list default="true" id="d0bd58b1-7e5c-46a2-8ae9-dd1f817c3aba" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/DisContinuousZigzag.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DisContinuousZigzag.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IICP/Data/SampleOne/cluster_contour_first.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/IICP/Data/SampleOne/out_contour_path.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Picture/IICP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IICP/.idea/NoContinuiousZigzag.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IICP/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IICP/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IICP/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IICP/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IICP/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IICP/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IICP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IICP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IICP/Code/Zigzag.py" beforeDir="false" afterPath="$PROJECT_DIR$/IICP/Code/Zigzag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IICP/Data/H2.0/angle0/zigzag.gcode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IICP/Data/H2.0/angle0/zigzag.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IICP/Data/H2.0/angle0_90/zigzag.gcode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IICP/Data/H2.0/angle0_90/zigzag.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IICP/Data/H2.0/angle90/zigzag.gcode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IICP/Data/H2.0/angle90/zigzag.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IICP/Data/H2.0/jiaocuo/zigzag.gcode" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IICP/Data/H2.0/jiaocuo/zigzag.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IICP/Data/cluster_contour_first.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IICP/Data/out_contour_path.txt" beforeDir="false" afterPath="$PROJECT_DIR$/IICP/Data/out_contour_path.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/.idea/NoContinuiousZigzag.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Code/Zigzag.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Code/Zigzag.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,28 +37,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/IICP" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Zigzag/Code/Zigzag.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2021.3/python_stubs/1923782766/math.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/IICP/Code/Zigzag.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/IICP/Code/VtkAdaptor.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/IICP/Code/SplitRegion.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/IICP/Code/GenDpPath.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/IICP/Code/GeomAIgo.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="26Yn1VAI3Tt2qfnxtv2dtsvcA5x" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="26gXgZmIvd2xucXLFbhuLOPnqnm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="所有位置" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.gitee.ui.GiteeSettingsConfigurable" />
   </component>
-  <component name="RunManager">
-    <configuration name="Zigzag" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Zigzag">
+    <configuration name="Zigzag (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DisContinuousZigzag" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -56,35 +87,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Zigzag" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DisContinuousZigzag" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IICP/Code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IICP/Code/Zigzag.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Zigzag" />
+        <item itemvalue="Python.Zigzag (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="f31998eb-5b88-4fd6-94b2-a272d35e4d6c" name="变更" comment="" />
-      <created>1647609172111</created>
+      <changelist id="d0bd58b1-7e5c-46a2-8ae9-dd1f817c3aba" name="变更" comment="" />
+      <created>1647846314352</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1647609172111</updated>
+      <updated>1647846314352</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

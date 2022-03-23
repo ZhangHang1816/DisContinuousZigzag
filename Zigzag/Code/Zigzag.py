@@ -12,17 +12,20 @@ out_path = "\Data\out_contour.txt"
 out_offset_path = "\Data\out_contour_path.txt"
 
 #path = "C:/Users/Hang/Desktop/ANN/Zigzag/Path/cluster_contour.txt"
-save_path = "C:/Users/Hang/Desktop/ANN/Zigzag/test_zigzag/Data/zigzag_test.txt"
+save_path = "\Data/zigzag.txt"
+
 cofficient = 10000.0
 interval = 0.4
-angle = 1e-12
+angle = 0
 
 angle = degToRad(angle)
 pathes = []
 dirpath = os.path.abspath(os.path.dirname(os.getcwd()))
+
 inner_path = dirpath + inner_path
 out_path = dirpath + out_path
 out_offset_path = dirpath + out_offset_path
+save_path = dirpath + save_path
 
 inner_points = np.loadtxt(inner_path)
 out_points = np.loadtxt(out_path)
@@ -66,16 +69,16 @@ paths = genDpPath(layer.contours, interval, angle)
 pathes.append(paths)
 
 layer_hight = [0.2,0.4]
-#with open(save_path, 'w') as f:
-    #for z in range(len(layer_hight)):
-        #for i in range(len(pathes)):
-            #for fill in pathes[i]:
-                #for j in fill.points:
-                    #f.write(str(j.x) + "    " + str(j.y) + "    " + str(layer_hight [z]) + '\n')
-                #f.write("1111" + "    " + "1111" + "    " + "1111" + '\n')
-                #print("this is split contours")
-    #f.write("11" +"    " + "1111" + "    " + "0.6")
-#f.close()
+with open(save_path, 'w') as f:
+    for z in range(len(layer_hight)):
+        for i in range(len(pathes)):
+            for fill in pathes[i]:
+                for j in fill.points:
+                    f.write(str(j.x) + "    " + str(j.y) + "    " + str(layer_hight [z]) + '\n')
+                f.write("1111" + "    " + "1111" + "    " + "1111" + '\n')
+                print("this is split contours")
+    f.write("11" +"    " + "1111" + "    " + "0.6")
+f.close()
 
 out_contour_path = np.loadtxt(out_offset_path)
 layer_out = Layer(0)
