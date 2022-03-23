@@ -17,7 +17,7 @@ This project is to generate the printing paths on the planar reinforced layer an
 #### The following is to show three different paths for a single planar reinforced layer filling
 1. Sample One
     ![输入图片说明](Picture/SampleOne/Model.PNG)
-    ![输入图片说明](Picture/SampleOne.png)
+    ![输入图片说明](Picture/SampleOne/SampleOne.png)
 
 2. Sample Two
     ![输入图片说明](Picture/SampleTwo/Model.PNG)
