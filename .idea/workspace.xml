@@ -21,7 +21,6 @@
       <change beforePath="$PROJECT_DIR$/IICP/Data/H2.0/jiaocuo/zigzag.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/IICP/Data/cluster_contour_first.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/IICP/Data/out_contour_path.txt" beforeDir="false" afterPath="$PROJECT_DIR$/IICP/Data/out_contour_path.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zigzag/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Zigzag/.idea/NoContinuiousZigzag.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Zigzag/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
@@ -29,6 +28,7 @@
       <change beforePath="$PROJECT_DIR$/Zigzag/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Zigzag/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Zigzag/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Code/Zigzag.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Code/Zigzag.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
