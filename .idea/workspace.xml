@@ -29,7 +29,6 @@
       <change beforePath="$PROJECT_DIR$/Zigzag/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Zigzag/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Zigzag/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zigzag/Code/Zigzag.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Code/Zigzag.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/IICP" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Zigzag/Code/Zigzag.py" root0="FORCE_HIGHLIGHTING" />
@@ -65,7 +64,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.gitee.ui.GiteeSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Zigzag">
+  <component name="RunManager" selected="Python.Zigzag (1)">
     <configuration name="Zigzag (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DisContinuousZigzag" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,8 +109,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Zigzag" />
         <item itemvalue="Python.Zigzag (1)" />
+        <item itemvalue="Python.Zigzag" />
       </list>
     </recent_temporary>
   </component>

@@ -16,7 +16,7 @@ save_path = "\Data/zigzag.txt"
 
 cofficient = 10000.0
 interval = 0.4
-angle = 0
+angle = 90
 
 angle = degToRad(angle)
 pathes = []
