@@ -18,11 +18,14 @@ This project is to generate the printing paths on the planar reinforced layer an
 1. Sample One
     ![输入图片说明](Picture/SampleOne/Model.PNG)
     ![输入图片说明](Picture/SampleOne/SampleOne.png)
+    ![输入图片说明](Picture/SampleOne/IICP.PNG)
 
 3. Sample Two
     ![输入图片说明](Picture/SampleTwo/Model.PNG)
     ![输入图片说明](Picture/SampleTwo/SampleTwo.PNG)
+    ![输入图片说明](Picture/SampleTwo/IICP.PNG)
 
 4. Sample Three
     ![输入图片说明](Picture/SampleThree/Model.PNG)
     ![输入图片说明](Picture/SampleThree/SampleThree.PNG)
+    ![输入图片说明](Picture/SampleThree/IICP.PNG)
