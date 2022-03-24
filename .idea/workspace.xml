@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0bd58b1-7e5c-46a2-8ae9-dd1f817c3aba" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/DisContinuousZigzag.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DisContinuousZigzag.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IICP/Code/MergePath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IICP/Code/RegionOffsetting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IICP/Code/WritePaths.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IICP/Data/SampleOne/zigzag.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Picture/SampleOne/IICP.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Picture/SampleTwo/IICP.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zigzag/Code/Angle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zigzag/Code/MergePath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zigzag/Code/WritePath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zigzag/Data/SampleOne/zigzag.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IICP/.idea/NoContinuiousZigzag.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/IICP/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IICP/.idea/misc.xml" afterDir="false" />
@@ -19,21 +27,46 @@
       <change beforePath="$PROJECT_DIR$/IICP/Data/H2.0/angle90/zigzag.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/IICP/Data/H2.0/jiaocuo/zigzag.gcode" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/IICP/Data/H2.0/jiaocuo/zigzag.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IICP/Data/SampleOne/cluster_contour_first.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IICP/Data/SampleOne/out_contour_path.txt" beforeDir="false" afterPath="$PROJECT_DIR$/IICP/Data/SampleOne/out_contour_path.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IICP/Data/cluster_contour_first.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/IICP/Data/out_contour_path.txt" beforeDir="false" afterPath="$PROJECT_DIR$/IICP/Data/out_contour_path.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zigzag/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zigzag/.idea/NoContinuiousZigzag.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zigzag/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zigzag/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zigzag/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zigzag/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zigzag/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zigzag/Code/Zigzag.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Code/Zigzag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleOne/H2.0/Angle0/zigzag.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleOne/H2.0/Angle0/zigzag.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleOne/H2.0/Angle0_90/zigzag.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleOne/H2.0/Angle0_90/zigzag.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleOne/H2.0/Angle90/zigzag.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleOne/H2.0/Angle90/zigzag.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleOne/inner_contour.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleOne/inner_contour.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleOne/out_contour.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleOne/out_contour.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleOne/out_contour_path.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleOne/out_contour_path.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleThree/H2.0/Angle0/zigzag.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleThree/H2.0/Angle0/zigzag.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleThree/H2.0/Angle0_90/zigzag.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleThree/H2.0/Angle0_90/zigzag.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleThree/H2.0/Angle90/zigzag.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleThree/H2.0/Angle90/zigzag.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleThree/inner_contour.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleThree/inner_contour.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleThree/out_contour.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleThree/out_contour.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleThree/out_contour_path.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleThree/out_contour_path.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleTwo/H2.0/Angle0/zigzag.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleTwo/H2.0/Angle0/zigzag.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleTwo/H2.0/Angle0_90/zigzag.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleTwo/H2.0/Angle0_90/zigzag.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleTwo/H2.0/Angle90/zigzag.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleTwo/H2.0/Angle90/zigzag.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleTwo/inner_contour.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleTwo/inner_contour.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleTwo/out_contour.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleTwo/out_contour.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleTwo/out_contour_path.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleTwo/out_contour_path.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Data/inner_contour.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/inner_contour.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Data/out_contour.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/out_contour.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Data/out_contour_path.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/out_contour_path.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Data/zigzag.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/zigzag.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,20 +84,23 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="26gXgZmIvd2xucXLFbhuLOPnqnm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TODO_SCOPE" value="所有位置" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.gitee.ui.GiteeSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Zigzag (1)">
+  <component name="RunManager" selected="Python.Zigzag">
     <configuration name="Zigzag (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DisContinuousZigzag" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,8 +145,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Zigzag (1)" />
         <item itemvalue="Python.Zigzag" />
+        <item itemvalue="Python.Zigzag (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -124,5 +160,35 @@
       <updated>1647846314352</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="layer" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
