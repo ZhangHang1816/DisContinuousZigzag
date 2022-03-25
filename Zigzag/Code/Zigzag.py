@@ -27,8 +27,8 @@ interval = 0.4
 
 layer_num = round((Height - first_layer) / H) + 1
 
-angleone = degToRad(90)
-angletwo = degToRad(90)
+angleone = degToRad(1e-12)
+angletwo = degToRad(1e-12)
 
 dirpath = os.path.abspath(os.path.dirname(os.getcwd()))
 inner_path = dirpath + inner_path

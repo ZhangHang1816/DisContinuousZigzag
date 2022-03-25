@@ -6,12 +6,6 @@
       <change afterPath="$PROJECT_DIR$/IICP/Code/RegionOffsetting.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/IICP/Code/WritePaths.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/IICP/Data/SampleOne/zigzag.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Picture/SampleOne/IICP.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Picture/SampleTwo/IICP.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zigzag/Code/Angle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zigzag/Code/MergePath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zigzag/Code/WritePath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zigzag/Data/SampleOne/zigzag.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IICP/.idea/NoContinuiousZigzag.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/IICP/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IICP/.idea/misc.xml" afterDir="false" />
@@ -31,29 +25,14 @@
       <change beforePath="$PROJECT_DIR$/IICP/Data/SampleOne/out_contour_path.txt" beforeDir="false" afterPath="$PROJECT_DIR$/IICP/Data/SampleOne/out_contour_path.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/IICP/Data/cluster_contour_first.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/IICP/Data/out_contour_path.txt" beforeDir="false" afterPath="$PROJECT_DIR$/IICP/Data/out_contour_path.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zigzag/Code/WritePath.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Code/WritePath.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zigzag/Code/Zigzag.py" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Code/Zigzag.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleOne/H2.0/Angle0/zigzag.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleOne/H2.0/Angle0/zigzag.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleOne/H2.0/Angle0_90/zigzag.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleOne/H2.0/Angle0_90/zigzag.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleOne/H2.0/Angle90/zigzag.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleOne/H2.0/Angle90/zigzag.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleOne/inner_contour.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleOne/inner_contour.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleOne/out_contour.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleOne/out_contour.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleOne/out_contour_path.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleOne/out_contour_path.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleThree/H2.0/Angle0/zigzag.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleThree/H2.0/Angle0/zigzag.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleThree/H2.0/Angle0_90/zigzag.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleThree/H2.0/Angle0_90/zigzag.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleThree/H2.0/Angle90/zigzag.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleThree/H2.0/Angle90/zigzag.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleThree/inner_contour.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleThree/inner_contour.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleThree/out_contour.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleThree/out_contour.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleThree/out_contour_path.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleThree/out_contour_path.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleTwo/H2.0/Angle0/zigzag.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleTwo/H2.0/Angle0/zigzag.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleTwo/H2.0/Angle0_90/zigzag.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleTwo/H2.0/Angle0_90/zigzag.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleTwo/H2.0/Angle90/zigzag.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleTwo/H2.0/Angle90/zigzag.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleTwo/inner_contour.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleTwo/inner_contour.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleTwo/out_contour.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleTwo/out_contour.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zigzag/Data/SampleTwo/out_contour_path.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/SampleTwo/out_contour_path.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zigzag/Data/inner_contour.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/inner_contour.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zigzag/Data/out_contour.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/out_contour.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zigzag/Data/out_contour_path.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/out_contour_path.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Zigzag/Data/zigzag.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Zigzag/Data/zigzag.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +79,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.gitee.ui.GiteeSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Zigzag">
+  <component name="RunManager" selected="Python.Zigzag (1)">
     <configuration name="Zigzag (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DisContinuousZigzag" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,8 +124,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Zigzag" />
         <item itemvalue="Python.Zigzag (1)" />
+        <item itemvalue="Python.Zigzag" />
       </list>
     </recent_temporary>
   </component>
